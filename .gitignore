@@ -1,5 +1,19 @@
-,env
+# Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Virtual environment
 venv/
-*.pyc
+env/
+
+# Environment variables
+.env
+
+# Node
 node_modules/
-dist
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
